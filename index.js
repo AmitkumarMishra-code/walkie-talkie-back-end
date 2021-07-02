@@ -1,3 +1,5 @@
+// https://gist.github.com/McLarenCollege/ce93ebd88759fc5ac73f89312bcad65e
+
 var app = require('express')();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http, {
